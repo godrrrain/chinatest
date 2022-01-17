@@ -165,7 +165,7 @@ function Update()
 
        let nameInput = document.createElement("INPUT");
        nameInput.setAttribute("type", "text");
-       nameInput.setAttribute("value", "Vova");
+       nameInput.setAttribute("value", "Anonymous");
        nameInput.setAttribute("size", "15");
        nameInput.setAttribute("maxlength", "18");
        nameInput.setAttribute("id", "name_inp");
