@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'main/css/mainPageStyle.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site_header">
+        <img src="{% static 'main/img/star.png' %}" class="star" width="76" height="102">
+        <div class="social_credit_label" onclick="document.location='/'">Social Credit System</div>
+        <div class="test_label" onclick="document.location='/'">-TEST</div>
+        <button class="leaderboard_btn" onclick="document.location='leaderboard'">Leaderboard</button>
+        <button class="about_btn" onclick="document.location='about'">What is this?</button>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer class="site_footer">
+      <div class = "site_footer_item">
+        This site is for entertainment purposes only. Any coincidences are accidental.
+        More information on the page “What is this?”
+      </div>
+      <div class = "site_footer_item">
+        If you have any questions write to 2001vova2002@gmail.com
+      </div>
+      <div class = "site_footer_item">
+        Made by one funny person :D
+      </div>
+    </footer>
+  </body>
+</html>

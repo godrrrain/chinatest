@@ -1,0 +1,171 @@
+body 
+{
+   margin: 0;
+   padding: 0;
+   background: #FFF5C2;
+   font-family: 'Risque', cursive;
+   font-size: 18px;
+}
+
+h2
+{
+   margin: 10px;
+   margin-top: 46px;
+   text-align: center;
+   font-size: 30px;
+   font-weight: normal;
+   color: #000000;
+}
+
+table {
+   border: 1px solid rgb(0, 0, 0);
+   width: 100%;
+}
+
+th {
+   border: 1px solid rgb(0, 0, 0);
+}
+
+td {
+   border: 1px solid rgb(0, 0, 0);
+   padding: 5px;
+}
+
+.site_header
+{
+   background: #FF0000;
+   height: 100px;
+}
+
+.star
+{
+   position: relative;
+   margin-left: 8.5%;
+   display: inline-block;
+}
+
+.social_credit_label
+{
+   position: relative;
+   bottom: 50px;
+   margin-left: 20px;
+   font-size: 48px;
+   color: #FFFFFF;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.test_label
+{
+   position: relative;
+   font-size: 32px;
+   right: 124px;
+   bottom: 16px;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.leaderboard_btn
+{
+   position: relative;
+   margin-left: 8%;
+   bottom: 52px;
+   vertical-align: middle;
+   border: none;
+   background-color: inherit;
+   font-size: 32px;
+   font-family: 'Risque', cursive;
+   color: #FFFFFF;
+   cursor: pointer;
+   display: inline-block;
+}
+
+.about_btn
+{
+   position: relative;
+   margin-left: 20px;
+   bottom: 52px;
+   vertical-align: middle;
+   border: none;
+   background-color: inherit;
+   font-size: 32px;
+   font-family: 'Risque', cursive;
+   color: #FFFFFF;
+   cursor: pointer;
+   display: inline-block;
+}
+
+.quiz-frame
+{
+   position: relative;
+   margin: auto;
+   border: 1;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   /* left: 200px;
+   right: auto; */
+   left: auto;
+   right: auto;
+   display: table-column;
+}
+
+.site_footer
+{
+   background: #FF0000;
+   height: 106px;
+   margin-top: 84px;
+   color: #ffffff;
+   display:block;
+   text-align: end;
+}
+
+.site_footer_item
+{
+   position: relative;
+   top: 15px;
+   right: 15%;
+   padding-top: 5px;
+}
+
+.about_text_content
+{
+   padding-left: 80px;
+   padding-right: 80px;
+   font-size: 26px;
+   text-align: center;
+}
+
+.lead_table_div
+{
+   position: relative;
+   padding-left: 200px;
+   padding-right: 200px;
+   font-size: 24px;
+   text-align: center;
+}
+
+.lead_table_first_row
+{
+   padding: 15px;
+}
+
+.lead_table_first_column
+{
+   width: 20%;
+}
+
+.lead_table_second_column
+{
+   text-align: start;
+   padding-left: 50px;
+}
+
+.lead_table_third_column
+{
+   width: 22%;
+}
+
+.lead_table_number
+{
+   padding-top: 15px;
+   text-align: end;
+}

@@ -1,0 +1,24 @@
+{% load static %}
+<div class="wrapper">
+    <main class="main">
+        <link rel="stylesheet" href="{% static 'main/css/testStyle.css' %}">
+        <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+        <img src="{% static 'main/gif/rockWeb.gif' %}" class="rockWeb" alt="I'm watching you" width="170" height="163" />
+        <div class="quiz_head_line"></div>
+        <div class="score" id="score_main"></div>
+        <img class="img_invisible" id="answerImg"/>
+        <img class="img_invisible" id="first_gif"/>
+        <img class="img_invisible" id="second_gif"/>
+        <div class="quiz_head">
+            <div class="quiz_head_question" id="head"></div>
+        </div>
+        <div class="quiz_body">
+            <div class="buttons">
+                <div class="buttons_content" id="buttons">
+                </div>
+            </div>
+            <img class="questionImg" id="questionMainImg" width="248" height="272">
+        </div>
+        <script src="{% static 'main/js/quiz.js' %}"></script>
+    </main>
+ </div>

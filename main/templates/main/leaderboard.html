@@ -1,0 +1,29 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Leaderboard
+{% endblock %}
+
+{% block content %}
+    <h2>Leaderboard</h2>
+    <div class = "lead_table_div">
+        <table>
+            <tr>
+                <td class = "lead_table_first_column lead_table_first_row">Rank</td>
+                <td class = "lead_table_second_column">Member name</td>
+                <td class = "lead_table_third_column">Score</td>
+            </tr>
+            {% for el in scores %}
+            <tr>
+                <td>{{forloop.counter}}</td>
+                <td class = "lead_table_second_column">{{ el.name }}</td>
+                <td>{{ el.score }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+                <td colspan="2" class="lead_table_number">Number of members with a positive score</td>
+                <td style="padding-top: 15px;">{{ positive_scores }}</td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}
